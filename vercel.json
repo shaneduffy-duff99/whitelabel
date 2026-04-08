@@ -1,7 +1,7 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/", "dest": "/public/broker-welcome.html" },
     { "src": "/admin/broker-admin", "dest": "/public/admin/broker-admin.html" },
     { "src": "/admin/marketplace-admin", "dest": "/public/admin/marketplace-admin.html" },
     { "src": "/admin/clients", "dest": "/public/admin/clients.html" },
