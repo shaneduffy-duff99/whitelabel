@@ -1,17 +1,4 @@
 {
   "version": 2,
-  "routes": [
-    { "src": "/", "dest": "/public/broker-welcome.html" },
-    { "src": "/admin/broker-admin", "dest": "/public/broker-admin.html" },
-    { "src": "/admin/marketplace-admin", "dest": "/public/marketplace-admin.html" },
-    { "src": "/admin/clients", "dest": "/public/clients.html" },
-    { "src": "/admin/content", "dest": "/public/content.html" },
-    { "src": "/admin/settings", "dest": "/public/settings.html" },
-    { "src": "/broker-welcome", "dest": "/public/broker-welcome.html" },
-    { "src": "/broker-signin", "dest": "/public/broker-signin.html" },
-    { "src": "/broker-settings", "dest": "/public/broker-settings.html" },
-    { "src": "/dashboard", "dest": "/public/dashboard.html" },
-    { "src": "/marketplace", "dest": "/public/marketplace.html" },
-    { "src": "/(.*)", "dest": "/public/$1" }
-  ]
+  "outputDirectory": "public"
 }
